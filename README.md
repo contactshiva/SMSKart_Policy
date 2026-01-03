@@ -1,0 +1,2 @@
+# SMSKart_Policy
+SMSKart
