@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMSKart Manager - Smart SMS Organizer</title>
+    <style>
+        :root {
+            --primary: #6C63FF;
+            --dark: #121212;
+            --light: #ffffff;
+            --gray: #2d2d2d;
+            --text-gray: #a0a0a0;
+        }
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark);
+            color: var(--light);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            padding: 40px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #6C63FF, #FF6584);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--text-gray);
+            margin-bottom: 30px;
+        }
+        .hero {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .feature-card {
+            background-color: var(--gray);
+            padding: 25px;
+            border-radius: 12px;
+            transition: transform 0.2s;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+        .feature-icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .feature-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: var(--primary);
+        }
+        .privacy-section {
+            background-color: #1a1a1a;
+            padding: 40px;
+            border-radius: 16px;
+            margin: 40px 0;
+            text-align: center;
+            border: 1px solid #333;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.9;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: var(--text-gray);
+            border-top: 1px solid #333;
+        }
+        .links a {
+            color: var(--text-gray);
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .links a:hover {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SMSKart Manager</h1>
+            <div class="subtitle">The smart, private, and secure way to manage your SMS</div>
+            <div>
+                <a href="#" class="btn">Download on Google Play</a>
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">📂</div>
+                <div class="feature-title">Smart Organization</div>
+                <div>Automatically categorizes messages into Personal, Finance, OTP, and Promotions so you can focus on what matters.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-title">Privacy First</div>
+                <div>All processing happens locally on your device. We never upload your messages to any server. Your data stays yours.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔢</div>
+                <div class="feature-title">OTP Detection</div>
+                <div>Instant OTP detection with one-tap copy. Never switch apps just to copy a code again.</div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">☁️</div>
+                <div class="feature-title">Secure Backup</div>
+                <div>Optional encrypted backup to your own Google Drive. Only you have access to your backups.</div>
+            </div>
+        </section>
+
+        <section class="privacy-section">
+            <h2>Your Privacy is Our Priority</h2>
+            <p>SMSKart Manager is built with a zero-knowledge architecture. We process everything offline.</p>
+            <div class="links" style="margin-top: 20px;">
+                <a href="https://github.com/contactshiva/SMSKart_Policy/blob/main/PRIVACY_POLICY.md">Privacy Policy</a> • 
+                <a href="TERMS_OF_SERVICE.md">Terms of Service</a>
+            </div>
+        </section>
+
+        <footer>
+            <div class="links">
+                <a href="mailto:honeyket6024@gmail.com">Contact Support</a>
+                <br><br>
+                &copy; 2025 SMSKart Manager. All rights reserved.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
